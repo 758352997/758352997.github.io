@@ -21,8 +21,8 @@ const del = require('del')  //删除文件夹的模块
 
 // 2 书写一个移动的images文件夹的方法
 function imgHandler(){
-    return gulp.src('./src/img/**')  //images文件夹下的所有文件
-    .pipe(gulp.dest('./dist/img'))
+    return gulp.src('./src/images/**')  //images文件夹下的所有文件
+    .pipe(gulp.dest('./dist/images'))
 }
 
 

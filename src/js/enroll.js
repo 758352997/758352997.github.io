@@ -79,7 +79,7 @@ button.onclick = function () {
         alert('账户已注册');
       } else {
         alert('注册成功');
-        location.href = '../dist/login.html';
+        location.href = './login.html';
       }
     }
   });
